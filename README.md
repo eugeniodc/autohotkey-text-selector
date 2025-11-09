@@ -26,13 +26,13 @@
    ```
 
 3. **Ejecuta el script**:
-   - Doble clic en `script.ahk` para ejecución temporal
+   - Doble clic en `TextSelector.ahk` para ejecución temporal
    - O colócalo en tu carpeta de inicio para ejecución automática
 
 ## 🚀 Uso Rápido
 
 1. **Activa el selector**: `Win + Espacio` en cualquier aplicación
-2. **Selecciona categoría**: Exchange, Respuesta, Datos, Enlaces, etc.
+2. **Selecciona categoría**: Saludo, Cierre, Respuesta, Datos, Enlaces, etc.
 3. **Elige opción específica**: Email formal, Chat, Teléfono, etc.
 4. **Pega**: Botón "Pegar" o `Enter`
 5. **¡Listo!**: El texto se inserta con formato correcto
@@ -40,7 +40,7 @@
 ### 📸 Demo de Uso
 
 ```
-Win + Espacio → Exchange → OnPremise → Enter
+Win + Espacio → Saludo → Email Formal → Enter
 ```
 **Resultado:**
 ```
@@ -53,12 +53,12 @@ Espero que te encuentres bien.
 
 ```
 autohotkey-text-selector/
-├── 📄 script.ahk          # Script principal
-├── 📊 Textos.csv          # Base de datos de textos
-├── 📖 README.md           # Este archivo
-├── 📋 LICENSE             # Licencia MIT
-└── 📁 docs/               # Documentación adicional
-    ├── 🛠️ customization.md  # Guía de personalización
+├── 📄 TextSelector.ahk     # Script principal
+├── 📊 Textos.csv           # Base de datos de textos
+├── 📖 README.md            # Este archivo
+├── 📋 LICENSE              # Licencia MIT
+└── 📁 docs/                # Documentación adicional
+    ├── 🛠️ customization.md   # Guía de personalización
     └── 🔧 troubleshooting.md # Solución de problemas
 ```
 
@@ -74,7 +74,7 @@ Categoría|Opción|Texto
 **Ejemplos:**
 
 ```csv
-Exchange|OnPremise|Estimado/a [Nombre]:`r`n`r`nEspero que te encuentres bien.
+Saludo|Email Formal|Estimado/a [Nombre]:`r`n`r`nEspero que te encuentres bien.
 Datos|Email|mi.correo.profesional@empresa.com
 Enlaces|Web Personal|https://www.miweb.com
 ```
@@ -89,7 +89,7 @@ Saludo|Formal|Buenos días,`r`n`r`nEspero que estés bien.
 
 ### Cambiar Hotkey
 
-En `script.ahk`, modifica la línea:
+En `TextSelector.ahk`, modifica la línea:
 ```autohotkey
 #Space:: MostrarSelectorDeTexto()  ; Win + Espacio
 ```
@@ -103,7 +103,8 @@ En `script.ahk`, modifica la línea:
 
 | Categoría | Opciones | Descripción |
 |-----------|----------|-------------|
-| **Exchange** | OnPremise, Email Rápido, Chat | Comunicaciones de Exchange |
+| **Saludo** | Email Formal, Email Rápido, Chat | Saludos y aperturas |
+| **Cierre** | Despedida Formal, Despedida Rápida | Cierres de comunicación |
 | **Respuesta** | Confirmación, En Revisión | Respuestas estándar |
 | **Datos** | Email, Teléfono | Información de contacto |
 | **Enlaces** | Web Personal, Documentos | URLs frecuentes |
