@@ -1,0 +1,28 @@
+# AutoHotkey specific
+*.exe
+*.bak
+*.tmp
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and debugging
+*.log
+debug/
+
+# Personal configuration (if any)
+config.ini
+settings.txt
+
+# Backup files
+*.backup
+*.old

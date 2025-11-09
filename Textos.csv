@@ -1,0 +1,12 @@
+Saludo|Email Formal|Estimado/a [Nombre]:`r`n`r`nEspero que te encuentres bien.
+Saludo|Email Rápido|Hola [Nombre],`r`n`r`n¿Qué tal todo?
+Saludo|Chat|¡Buenas! ¿Cómo va?
+Cierre|Despedida Formal|Quedo a la espera de tus comentarios.`r`n`r`nUn saludo cordial,`r`nMi Nombre
+Cierre|Despedida Rápida|Gracias,`r`nUn saludo.
+Cierre|Chat|¡Hablamos!
+Respuesta|Confirmación|Recibido, muchas gracias.
+Respuesta|En Revisión|Entendido. Lo reviso y te doy una respuesta lo antes posible.
+Datos|Email|mi.correo.profesional@empresa.com
+Datos|Teléfono|+34 600 123 456
+Enlaces|Web Personal|https://www.miweb.com
+Enlaces|Documento Frecuente|https://docs.google.com/document/d/XXXXXX
