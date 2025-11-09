@@ -21,7 +21,7 @@
 
 2. **Clona este repositorio**:
    ```bash
-   git clone https://github.com/tuusuario/autohotkey-text-selector.git
+   git clone https://github.com/eugeniodc/autohotkey-text-selector.git
    cd autohotkey-text-selector
    ```
 
@@ -158,8 +158,8 @@ Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](L
 
 ## 📞 Soporte
 
-- **Issues**: [GitHub Issues](https://github.com/tuusuario/autohotkey-text-selector/issues)
-- **Documentación**: [Wiki del proyecto](https://github.com/tuusuario/autohotkey-text-selector/wiki)
+- **Issues**: [GitHub Issues](https://github.com/eugeniodc/autohotkey-text-selector/issues)
+- **Documentación**: [Wiki del proyecto](https://github.com/eugeniodc/autohotkey-text-selector/wiki)
 - **AutoHotkey Docs**: [Documentación oficial v2](https://www.autohotkey.com/docs/v2/)
 
 ---
